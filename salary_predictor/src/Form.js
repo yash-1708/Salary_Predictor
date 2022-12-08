@@ -87,7 +87,7 @@ class Form extends Component {
 						<p>
 							<br />
 							<h1 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-								You Should Expect {this.state.salary} USD
+								You Should Expect {parseInt(this.state.salary)} USD
 							</h1>
 						</p>
 					</p>
